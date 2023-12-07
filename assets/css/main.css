@@ -1,0 +1,1248 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+    --bcolor: rgb(0, 123, 255);
+    --gcolor:rgb(80,101,142);
+}
+.home-page{
+    background-color: rgba(0, 123, 255, 0.03);
+    background-image: url(../images/Header.png);
+    padding-bottom: 50px;
+}
+/* ---------- header ---------- */
+nav .container{
+    width: 90%;
+    margin: auto;
+}
+nav .row{
+    display: flex;
+    justify-content: space-between;
+}
+nav .row .logo{
+    font-size: 22px;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+nav .row .logo span{
+    color: var(--gcolor) ;
+}
+nav .row .logo h1{
+    font-weight: 800;
+}
+nav .nav-links ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+
+}
+nav .nav-links ul li{
+    padding: 15px;
+}
+nav .nav-links ul  a{
+    text-decoration: none;
+    color: var(--gcolor);
+    font-weight: 700;
+    font-size: 17px;
+
+}
+nav .nav-links ul .do a{
+    color: white;
+}
+nav .nav-links .do{
+    margin:20px 0 0 10px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--bcolor);
+    font-size: 20px;
+    transition: all 0.5s;   
+}
+nav .nav-links .do:hover{
+    background-color: rgb(0, 86, 179);
+}
+
+nav .row .bars{
+    font-size: 25px;
+    margin-top: 45px;
+    display: none;
+}
+/* ---------- main-home ---------- */
+.main-home{
+    padding-top: 60px;
+}
+.main-home .container{
+    width: 90%;
+    margin: auto;
+}
+.main-home .row{
+    display: flex;
+    justify-content: space-between;
+}
+.main-home .row .text{
+    width: 45%;
+}
+.main-home .row .text .l1{
+    display: flex;
+}
+.main-home .row .text .l1 .corona{
+    font-size: 90px;
+    font-weight: 900;
+    color: var(--gcolor);
+}
+.main-home .row .text .l1 .xt p{
+    font-size: 35px;
+    font-weight: 800;
+    padding-top: 6px;
+    color: var(--gcolor);
+}
+.main-home .row .text .l1 .xt .virus{
+    color: red;
+    margin-bottom:  10px;
+}
+.main-home .row .l2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #747985;
+    font-size: 20px;
+}
+.main-home .row .text .l3{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-home .row .text .l3 .how{
+    font-size: 18px;
+    background-color: var(--bcolor);
+    padding: 12px;
+    border-radius: 60px;
+    transition: all 0.5s;
+}
+.main-home .row .text .l3 .how h3 a{
+    color: white;
+    text-decoration: none;
+}
+.main-home .row .text .l3 .how:hover{
+    background-color: rgb(0, 86, 179);
+}
+.main-home .row .text .l3 .about{
+    font-size: 18px;
+}
+.main-home .row .text .l3 .about a{
+    text-decoration: none;
+    color: var(--bcolor);
+
+}
+.main-home .row .text .l3 .about a:hover{
+    border-bottom: 1px solid var(--bcolor);
+}
+.main-home .row .text .l4{
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+}
+.main-home .row .text .l4 div{
+    color: #747985;
+    text-align: center;
+}
+.main-home .row .text .l4 div h3{
+    font-weight: 100;
+}
+.main-home .row .text .l4 div h1{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 900;
+    color: var(--gcolor);
+}
+.main-home .row .text .l5{
+    margin-top: 50px;
+    color: #747985;
+    font-size: 15px;
+}
+.main-home .container .row img{
+    width: 45%;
+}
+/* ---------- main ---------- */
+main{
+    margin-top: 80px;
+    background-image: url(../images/Header.png) ;
+}
+/* -------- sec1 -------- */
+main #sec1 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec1 .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+main #sec1 .row .about-text{
+    width: 55%;
+}
+main #sec1 .row .about-text h2{
+    color: var(--bcolor);
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+main #sec1 .row h1{
+    font-size: 50px;
+    color: var(--gcolor);
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+main #sec1 .row h3{
+    font-size: 27px;
+    color: var(--gcolor);
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+main #sec1 .row p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #747985;
+}
+main #sec1 .row .about-list{
+    width: 35% ;
+}
+main #sec1 .row .about-list ul{
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 0px 10px #747985;
+}
+main #sec1 .row .about-list h2{
+    color: var(--gcolor);
+}
+main #sec1 .row .about-list li{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #747985;
+    height: 65px;
+    width: 350px;
+}
+main #sec1 .row .about-list a{
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--bcolor);
+}
+/* -------- sec2 -------- */
+main #sec2 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec2{
+    background-color: rgba(0, 123, 255, 0.03);
+}
+main #sec2 div{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+main #sec2 div h3{
+    color: var(--bcolor);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+main #sec2 div h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+main #sec2 div p{
+    color: #747985;
+    font-size: 18px;
+}
+main #sec2 .pic{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+main #sec2 .pic div{
+    border: 1px solid #74798548;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px #74798548 ;
+    width: 30%;
+}
+main #sec2 .pic div img{
+    width: 100%;
+    border-bottom: 5px solid var(--bcolor);
+}
+main #sec2 .pic div h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--gcolor);
+}
+main #sec2 .pic div p{
+    color: #747985;
+}
+main #sec2 .l-sec2{
+    padding-bottom: 50px;
+}
+main #sec2 .l-sec2 button{
+    font-size: 20px;
+    color: white;
+    background-color: var(--bcolor);
+    padding: 20px;
+    border: 1px var(--bcolor);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+main #sec2 .l-sec2 button:hover{
+    background-color: rgb(0, 86, 179);
+}
+/* -------- sec3 -------- */
+main #sec3{
+    margin-top: 40px;
+}
+main #sec3 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec3 .txt{
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+main #sec3 .txt h3{
+    color: var(--bcolor);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+main #sec3 .txt h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+main #sec3 .txt p{
+    color: #747985;
+    font-size: 18px;
+}
+main #sec3 .pic{
+    display: flex;
+    justify-content: center;
+    margin:50px 0px ;
+}
+main #sec3 .pic .plot{
+    width: 330px;
+    height: 320px;
+    border: 2px solid #7479850d;
+    border-radius: 10px;
+    padding: 10px;
+}
+main #sec3 .pic .plot img{
+    width: 30%;
+    border-radius: 50px;
+    margin: 20px;
+}
+main #sec3 .pic .plot .ltr{
+    direction: rtl;
+}
+main #sec3 .pic .plot h2{
+    color: var(--bcolor);
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+main #sec3 .pic .plot p{
+    color: #747985;
+}
+main #sec3 .pic .plot p span{
+    color: var(--gcolor);
+    font-size: 17px;
+    font-weight: 900;
+}
+main #sec3 .pic .plot .text{
+    padding: 15px;
+}
+main #sec3 .row{
+    display: flex;
+    justify-content: space-around;
+}
+main #sec3 .row .cap{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+main #sec3 .row .cap .xt p{
+    width: 90%;
+    font-size: 17px;
+    color: #747985;
+    margin-left: 10px;
+}
+main #sec3 .row .cap .xt p span{
+    color: var(--bcolor);
+    font-size: 19px;
+    font-weight: 700;
+}
+main #sec3 .row .cap .te i{
+    font-size: 60px;
+    color: var(--gcolor);
+}
+main #sec3 .row .bottom{
+    width: 26%;
+    font-size: 20px;
+    color: white;
+    background-color: var(--bcolor);
+    padding: 20px;
+    border: 1px var(--bcolor);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+main #sec3 .row .bottom:hover{
+    background-color: rgb(0, 86, 179);
+}
+/* -------- sec4 -------- */
+main #sec4{
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: rgba(0, 123, 255, 0.03);
+    text-align: center;
+}
+main #sec4 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec4 .txt{
+    margin-top: 20px;
+    padding-top: 30px;
+}
+main #sec4 .txt h3{
+    color: var(--bcolor);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+main #sec4 .txt h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+main #sec4 .txt p{
+    color: #747985;
+    font-size: 18px;
+}
+main #sec4 .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+main #sec4 .row .pic-txt{
+    margin-top: 50px;
+    width: 16%;
+}
+main #sec4 .row .pic-txt img{
+    border-radius: 80px;
+    width: 50%;
+}
+main #sec4 .row .pic-txt h2{
+    margin: 20px 0;
+    color: var(--bcolor);
+}
+main #sec4 .row .pic-txt p{
+    margin-bottom: 40px;
+    color: #747985;
+}
+main #sec4 button{
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: white;
+    background-color: var(--bcolor);
+    padding: 17px;
+    border: 1px var(--bcolor);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+main #sec4 button:hover{
+    background-color: rgb(0, 86, 179);
+}
+main #sec4 .anc a{
+    text-decoration: none;
+    color: var(--bcolor);
+    font-size: 20px;
+    font-weight: 800;
+}
+main #sec4 .anc a:hover{
+    border-bottom: 1px solid var(--bcolor);
+}
+main #sec4 .anc{
+    padding-bottom: 50px;
+}
+/* -------- sec5 -------- */
+main #sec5{
+    padding-top: 50px;
+    background-color: rgba(0, 123, 255, 0.03);
+    padding-bottom: 30px;
+}
+main #sec4 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec5 .container .row{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border: 1px solid #74798521;
+    box-shadow: 0px 0px 10px #747985;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+main #sec5  .row .text{
+    width: 60%;
+}
+main #sec5  .row .text h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: var(--gcolor);
+}
+main #sec5  .row .text p{
+    margin-bottom: 30px;
+    color: #747985;
+}
+main #sec5  .row .text p span{
+    color: var(--gcolor);
+    font-size: 18px;
+}
+main #sec5  .row .text p span i{
+    color: rgb(82,201,139);
+}
+main #sec5  .row .pic{
+    width: 30%;
+}
+main #sec5  .row .text p a{
+    color: var(--bcolor);
+}
+main #sec5  .row .text p a:hover{
+    color: rgb(0, 86, 179);
+}
+main #sec5  .row .pic img{
+    width: 100%;
+} 
+/* -------- sec6 -------- */
+main #sec6{
+    padding-top: 20px;
+    padding-bottom: 150px;
+    background-color: rgba(0, 123, 255, 0.03);
+    text-align: center;
+}
+main #sec6 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec6 .txt{
+    padding-top: 30px;
+}
+main #sec6 .txt h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+main #sec6 .txt p{
+    color: #747985;
+}
+main #sec6 .txt p a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    color: var(--bcolor);
+}
+main #sec6 .txt p a:hover{
+    color: rgb(0, 86, 179);
+}
+main #sec6 .row{
+    display: flex;
+    justify-content: center;
+}
+main #sec6 .row .pic-txt{
+    margin-top: 50px;
+    width: 15%;
+
+}
+main #sec6 .row .pic-txt img{
+    border-radius: 80px;
+    width: 70%;
+}
+main #sec6 .row .pic-txt h4{
+    font-size: 20px;
+    margin-top: 20px;
+    color: var(--gcolor);
+}
+/* -------- sec7 -------- */
+main #sec7{
+    background-color: rgb(39,102,187);
+    background-image: url(../images/Header.png);
+}
+main #sec7 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec7 .row{
+    display: flex;
+    justify-content: space-between;
+}
+main #sec7 .row .text{
+    width: 55%;
+    color: white;
+    padding-top: 150px;
+}
+main #sec7 .row .text h3{
+    color: rgb(115,227,255);
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+}
+main #sec7 .row .text h1{
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 900;
+}
+main #sec7 .row .text p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+main #sec7 .row .border{
+    width: 40%;
+    padding-top: 150px;
+    margin-bottom: 120px;
+}
+main #sec7 .row .border .text-border{
+    color: white;
+    width: 100%;
+    border: 1px solid rgb(27,71,161);
+    border-radius: 20px;
+    background-color: rgb(27,71,161);
+    padding: 25px;
+}
+main #sec7 .row .border .text-border h2{
+margin-bottom: 20px;
+font-size: 22px;
+font-weight: 700;
+}
+main #sec7 .row .border .text-border h3{
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+main #sec7 .row .border .text-border p{
+    margin-bottom: 20px;
+}
+/* -------- sec8 -------- */
+main #sec8{
+    padding-top: 30px;
+    background-color: rgba(0, 123, 255, 0.03);
+    text-align: center;
+}
+main #sec8 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec8 .txt{
+    margin-top: 20px;
+    padding-top: 30px;
+}
+main #sec8 .txt h3{
+    color: var(--bcolor);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+main #sec8 .txt h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+main #sec8 .txt p{
+    color: #747985;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+main #sec8 .container img{
+    width: 50%;
+    margin-bottom: 50px;
+}
+/* -------- sec9 -------- */
+main #sec9{
+    padding-top: 30px;
+}
+main #sec9 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec9 .row{
+    display: flex;
+    justify-content: center;
+}
+main #sec9 .txt{
+    margin-top: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+main #sec9 .txt h3{
+    color: var(--bcolor);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+main #sec9 .txt h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+main #sec9 .row .txt1{
+    margin-bottom: 30px;
+}
+main #sec9 .row .txt1 p{
+    color: var(--gcolor);
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid rgba(80, 101, 142, 0.273);
+    border-radius: 8px;
+}
+main #sec9 .row .txt1 p:hover{
+    color: var(--bcolor);
+    cursor: pointer;
+    border: 1px solid var(--bcolor);
+}
+/* -------- sec10 -------- */
+main #sec10{
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: rgba(0, 123, 255, 0.03);
+    text-align: center;
+}
+main #sec10 .container{
+    width: 90%;
+    margin: auto;
+}
+main #sec10 .txt{
+    margin-top: 20px;
+    padding-top: 30px;
+}
+main #sec10 .txt h3{
+    color: var(--bcolor);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+main #sec10 .txt h1{
+    color: var(--gcolor);
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+main #sec10 .pic{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+main #sec10 .pic div{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px #74798548 ;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 150px;
+}
+main #sec10 .pic div img{
+    width: 100%;
+    border-bottom: 5px solid var(--bcolor);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+main #sec10 .pic div h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: var(--gcolor);
+}
+main #sec10 .pic div p{
+    color: #747985;
+}
+/* -------- footer -------- */
+footer{
+    background-color: rgb(21,28,46);
+    background-image: url(../images/Header.png);
+}
+footer .container{
+    width: 70%;
+    margin: auto;
+}
+footer .row{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+footer .row .last{
+    width: 30%;
+    margin-bottom: 10px;
+}
+footer .row .last h1{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+footer .row .last span{
+    color: rgba(255, 0, 0, 0.862);
+}
+footer .row .last i{
+    color: rgba(255, 0, 0, 0.862);
+}
+footer .row .last p{
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(178,191,224);
+}
+footer .row .last .icon i{
+    font-size: 30px;
+    padding: 10px 0 5px 10px;
+}
+footer .row .lst h2{
+    margin-top: 30px;
+    margin-bottom: 20px ;
+    font-size: 20px;
+}
+footer .row .lst p{
+    margin-bottom: 10px;
+}
+footer .row .lst p a{
+    text-decoration: none;
+    color: rgb(178,191,224);
+}
+footer .info{
+    padding: 40px 0 60px 0;
+}
+footer .info .border{
+    border-top: 1px solid rgb(178,191,224);
+    padding-top: 20px;
+}
+footer .info p{
+    color: rgb(178,191,224);
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+footer .info p span{
+    color: rgba(255, 0, 0, 0.862);
+    font-size: 16px;
+    font-weight: 800;
+}
+/* ========== Responsive ========== */
+@media (max-width: 1140px){
+    nav .nav-links ul li{
+        padding: 15px 15px 15px 0;
+    }
+    .main-home .row{
+        height: 500px;
+    }
+    footer .container{
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px){
+    nav .container{
+        width: 95%;
+    }
+    nav .nav-links .do{
+        margin:20px 0 0 0px;
+    }
+    .main-home .container{
+        width: 95%;
+    }
+    .main-home .row{
+        height: 500px;
+    }
+    .main-home .row .text .l1 .corona{
+        font-size: 60px;
+        font-weight: 900;
+        color: var(--gcolor);
+    }
+    main #sec1 .row .about-text{
+        width: 50%;
+    }
+    main #sec1 .row .about-list{
+        width: 40% ;
+    }
+    main #sec2 .pic{
+        width: 100%;
+    }
+    main #sec3 .row{
+        display: block;
+    }
+    main #sec3 .row .cap{
+        margin: auto;
+        width: 80%;
+    }
+    main #sec3 .row .cap .xt p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    main #sec3 .row .bottom{
+        width: 41%;
+        margin: auto;
+    }
+    main #sec4 .row .pic-txt{
+        width: 22%;
+    }
+    main #sec5 .container .row{
+        width: 90%;
+    }
+    main #sec5  .row .pic img{
+        width: 100%;
+        height: 450px;
+    }
+    main #sec6 .row .pic-txt{
+        width: 13%;
+    }
+    main #sec7 .row{
+        flex-wrap: wrap;
+    }
+    main #sec7 .row .text{
+        width: 100%;
+    }
+    main #sec7 .row .border{
+        width: 100%;
+        padding-top: 80px;
+    }
+    main #sec8 .container img{
+        width: 60%;
+    }
+    main #sec10 .pic{
+        width: 100%;
+    }
+    footer .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    nav .nav-links{
+        display: none;
+    }
+    nav .row .bars{
+        display: block;
+    }
+    .main-home .row{
+        display: block;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .main-home .row .text{
+        width: 100%;
+    }
+    .main-home .container .row img{
+        width: 100%;
+    }
+    .main-home .row .text .l1{
+        justify-content: center;
+    }
+    .main-home .row .text .l5{
+        margin-bottom: 30px;
+    }
+    .main-home .row .text .l1 .corona{
+        font-size: 100px;
+        font-weight: 900;
+        color: var(--gcolor);
+    }
+    main #sec1 .row{
+        display: block;
+    }
+    main #sec1 .row .about-text{
+        width: 100%;
+    }
+    main #sec1 .row .about-list{
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+    main #sec1 .row .about-list ul{
+        width: 400px;
+    }
+    main #sec1 .row .about-list li{
+        width: 400px;
+    }
+    main #sec2 .pic div{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    main #sec2 .pic{
+        display: block;
+    }
+    main #sec3 .row .bottom{
+        width: 57%;
+        margin: auto;
+    }
+    main #sec3 .pic{
+        display: block ;
+    }
+    main #sec3 .pic .plot{
+        margin: auto;
+        width: 65%;
+    }
+    main #sec3 .pic .plot img{
+        width: 20%;
+    }
+    main #sec4 .row{
+        flex-wrap: wrap;
+    }
+    main #sec4 .row .pic-txt{
+        width: 40%;
+    }
+    main #sec5 .container .row{
+        display: block;
+    }
+    main #sec5  .row .text{
+        width: 100%;
+    }
+    main #sec5  .row .pic{
+        width: 70%;
+        margin: auto;
+    }
+    main #sec6 .row{
+        flex-wrap: wrap;
+    }
+    main #sec6 .row .pic-txt{
+        width: 30%;
+    }
+    main #sec7 .row .text h1{
+        font-size: 30px;
+    }
+    main #sec9 .txt h3{
+        font-size: 22px;
+    }
+    main #sec9 .txt h1{
+        font-size: 30px;
+    }
+    main #sec10 .pic div{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    main #sec10 .pic{
+        display: block;
+    }
+    footer .row{
+        flex-wrap: wrap;
+    }
+    footer .row .last{
+        width: 100%;
+    }
+    footer .info p{
+        font-size: 14px;
+    }
+    footer .info p span{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 580px){
+    .main-home .row .text .l1{
+        display: block;
+        text-align: center;
+    }
+    .main-home .row .text .l3 .about{
+        text-align: center;
+    }
+    .main-home .row .text .l1 .corona{
+        font-size: 80px;
+        font-weight: 900;
+        color: var(--gcolor);
+    }
+    .main-home .row .text .l4{
+        display: block;
+    }
+    .main-home .row .text .l4 div{
+        margin: 30px;
+    }
+    .main-home .row .text .l5{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    main #sec1 .row .about-list{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    main #sec2 .pic div{
+        width: 90%;
+    }
+    main #sec2 .l-sec2 button{
+        font-size: 18px;
+        padding: 15px;
+    }
+    main #sec3 .pic .plot{
+        width: 80%;
+    }
+    main #sec3 .row .bottom{
+        width: 75%;
+        padding: 15px;
+    }
+    main #sec4 .row .pic-txt{
+        width: 45%;
+    }
+    main #sec6 .row .pic-txt{
+        width: 26%;
+    }
+    main #sec6 .row .pic-txt h4{
+        font-size: 15px;
+    }
+    main #sec7 .row .text h1{
+        font-size: 25px;
+    }
+    main #sec7 .row .text h3{
+        font-size: 20px;
+    }
+    main #sec7 .row .text p{
+        font-size: 15px;
+    }
+    main #sec7 .row .border .text-border h2{
+        font-size: 20px;
+    }
+    main #sec8 .container img{
+        width: 80%;
+    }
+    main #sec9 .txt h3{
+        font-size: 20px;
+    }
+    main #sec10 .pic div{
+        width: 90%;
+    }
+    footer .row .lst{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 525px){
+    main #sec3 .row .cap .xt p{
+        font-size: 15px;
+        width: 90%;
+    }
+    main #sec3 .row .cap .te i{
+        font-size: 55px;
+    }
+    main #sec3 .row .bottom{
+        padding: 12px;
+        font-size: 16px;
+        text-align: center;
+    }
+    main #sec3 .pic .plot{
+        width: 90%;
+    }
+    main #sec4 .row .pic-txt{
+        width: 85%;
+    }
+    main #sec4 button{
+        font-size: 17px;
+        padding: 16px;
+    }
+    main #sec5  .row .pic{
+        width: 80%;
+    }
+    main #sec6 .row .pic-txt{
+        width: 50%;
+    }
+    main #sec6 .row .pic-txt h4{
+        font-size: 18px;
+    }
+    main #sec9 .txt h3{
+        font-size: 20px;
+    }
+    main #sec9 .txt h1{
+        font-size: 35px;
+    }
+    footer .info p{
+        font-size: 13px;
+    }
+    footer .info p span{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 440px){
+    main #sec1 .row .about-text{
+        width: 100%;
+    }
+    main #sec1 .row .about-list ul{
+        width: 300px;
+    }
+    main #sec1 .row .about-list li{
+        width: 300px;
+    }
+    main #sec1 .row h1{
+        font-size: 40px;
+    }
+    main #sec1 .row h3{
+        font-size: 20px;
+    }
+    main #sec1 .row p{
+        font-size: 17px;
+    }
+    main #sec1 .row .about-list{
+        margin-left: 25px;
+    }
+    main #sec2 .l-sec2 button{
+        font-size: 16px;
+        padding: 10px;
+    }
+    main #sec3 .row .cap{
+        display: block;
+        text-align: center;
+    }
+    main #sec3 .row .cap .te i{
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    main #sec3 .row .cap .xt p{
+        width: 100%;
+    }
+    main #sec3 .row .bottom{
+        width: 85%;
+    }
+    main #sec4 button{
+        font-size: 15px;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    main #sec5  .row .pic{
+        width: 100%;
+    }
+    main #sec7 .row .border .text-border h3{
+        font-size: 16px;
+    }
+    main #sec7 .row .border .text-border p{
+        font-size: 15px;
+    }
+    main #sec8 .txt p{
+        font-size: 15px;
+    }
+    main #sec8 .container img{
+        width: 90%;
+    }
+    main #sec9 .txt h3{
+        font-size: 18px;
+    }
+    main #sec9 .txt h1{
+        font-size: 30px;
+    }
+}
